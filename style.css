@@ -6,27 +6,29 @@
 
 .cabecalho{
     display: flex;
-    background-color: green;
+    background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 0 400px;
+    padding: 50px 200px;   
+     
 
 }
 
 .cabecalho-menu ul{
     display: flex;
     list-style: none;
+    gap: 26px;
+    
 }
 
 .hero-text{
     display: flex;
     flex-direction: column;
+    gap: 16px;
 }
 
-.hero-button{
-    width: 100px;
-}
+
 
 .hero-content{
     display: flex;
@@ -34,6 +36,49 @@
     align-items: center;
     height: 70vh;
     background-color: #1F2937;
-    padding: 0 400px;
-    
+    padding: 0 200px;  
+}
+
+
+.hero-titulo{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    font-family: Roboto;
+}
+
+.hero-subtitulo{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Roboto;
+}
+
+.links-menu{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Roboto;
+    color: white;
+}
+
+.links-menu:hover{
+    color: #3882F6;
+}
+
+.hero-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-family: Roboto;
+    width: 150px;
+    font-weight: 500;
+    cursor: pointer
+}
+
+.hero-button:hover{
+    opacity: 0.9;
+    transform: scale(1.02);
 }
