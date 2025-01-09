@@ -96,13 +96,13 @@
     transform: scale(1.02);
 }
 
-#section-sexteto{
+#sexteto-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
-    gap: 20px;
+    padding: 50px 0 50px 0;
+    gap: 40px;
 }
 
 .sexteto-texto{
@@ -141,3 +141,34 @@
     text-decoration: none;
 }
 
+#quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 350px;
+}  
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-family: Roboto;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    width: 700px;
+}
+
+.quote-author{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: flex-end;
+}
