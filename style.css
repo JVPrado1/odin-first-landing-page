@@ -1,63 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 50px 200px;   
-     
-
+    padding: 50px 200px;
 }
 
-.cabecalho-menu ul{
+.cabecalho-menu ul {
     display: flex;
     list-style: none;
     gap: 26px;
-    
 }
 
-.hero-text{
+.hero-text {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.hero-sectionn{
+.hero-sectionn {
     display: flex;
     flex-direction: row;
     gap: 16px;
 }
 
-.hero-section{
+.hero-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70vh;
     background-color: #1F2937;
-    padding: 0 200px;  
+    padding: 0 200px;
 }
 
-
-.hero-titulo{
+.hero-titulo {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
     font-family: Roboto;
 }
 
-.hero-subtitulo{
+.hero-subtitulo {
     font-size: 18px;
     color: #E5E7EB;
     font-family: Roboto;
 }
 
-.links-menu{
+.links-menu {
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -65,11 +61,11 @@
     color: white;
 }
 
-.links-menu:hover{
+.links-menu:hover {
     color: #3882F6;
 }
 
-.hero-button{
+.hero-button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 7px;
@@ -80,10 +76,9 @@
     width: 150px;
     font-weight: 500;
     cursor: pointer;
-    
 }
 
-.hero-button{
+.hero-button {
     text-decoration: none;
     color: #F9FAF8;
     padding: 10px 30px;
@@ -95,12 +90,12 @@
     text-align: center;
 }
 
-.hero-button:hover{
+.hero-button:hover {
     opacity: 0.9;
     transform: scale(1.02);
 }
 
-#sexteto-section{
+#sexteto-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +104,7 @@
     gap: 40px;
 }
 
-.sexteto-texto{
+.sexteto-texto {
     font-size: 18px;
     font-family: Roboto;
     color: #1F2937;
@@ -119,7 +114,8 @@
     flex-direction: column;
     margin-bottom: 15px;
 }
-.sexteto-titulo{
+
+.sexteto-titulo {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -127,7 +123,7 @@
     margin-bottom: 7px;
 }
 
-.cards-container{
+.cards-container {
     align-items: center;
     justify-content: center;
     gap: 80px;
@@ -137,7 +133,7 @@
     margin-bottom: 40px;
 }
 
-.poke-card a{
+.poke-card a {
     font-size: 18px;
     font-family: Roboto;
     color: #1F2937;
@@ -145,14 +141,15 @@
     text-decoration: none;
 }
 
-#quote-section{
+#quote-section {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-self: center;
     height: 350px;
-}  
-.quote-container{
+}
+
+.quote-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,7 +157,7 @@
     gap: 20px;
 }
 
-.quote-text{
+.quote-text {
     font-size: 36px;
     font-family: Roboto;
     font-style: italic;
@@ -169,7 +166,7 @@
     width: 700px;
 }
 
-.quote-author{
+.quote-author {
     font-size: 24px;
     font-family: Roboto;
     font-weight: 900;
@@ -177,15 +174,14 @@
     align-self: flex-end;
 }
 
-#call-section{
+#call-section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
-    
 }
 
-.call-container{
+.call-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -195,20 +191,20 @@
     border-radius: 15px;
 }
 
-.call-texto{
+.call-texto {
     display: flex;
     flex-direction: column;
     gap: 10px;
     color: white;
-    font-family: roboto;
+    font-family: Roboto;
 }
 
-.call-titulo{
+.call-titulo {
     font-size: 24px;
     font-weight: 700;
 }
 
-.call-subtitulo{
+.call-subtitulo {
     font-size: 18px;
     font-weight: 300;
 }
@@ -228,15 +224,13 @@
     text-align: center;
 }
 
-.call-button:hover{
+.call-button:hover {
     background-color: white;
     color: #3882F6;
     transform: scale(1.02);
-   
 }
 
-
-.rodape{
+.rodape {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,7 +240,4 @@
     font-family: Roboto;
     font-weight: 300;
     font-size: 18px;
-   
 }
-
-
