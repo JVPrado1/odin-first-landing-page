@@ -82,7 +82,60 @@
     cursor: pointer
 }
 
+.hero-button{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    text-align: center;
+}
+
 .hero-button:hover{
     opacity: 0.9;
     transform: scale(1.02);
+}
+
+#section-sexteto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.sexteto-texto{
+    font-size: 18px;
+    font-family: Roboto;
+    color: #1F2937;
+    font-weight: 500;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.sexteto-titulo{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    font-family: Roboto;
+    margin-bottom: 7px;
+}
+
+.cards-container{
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin-bottom: 40px;
+}
+
+.poke-card p{
+    font-size: 18px;
+    font-family: Roboto;
+    color: #1F2937;
+    font-weight: 500;
 }
