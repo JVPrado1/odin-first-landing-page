@@ -28,9 +28,13 @@
     gap: 16px;
 }
 
+.hero-sectionn{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
 
-
-.hero-content{
+.hero-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
