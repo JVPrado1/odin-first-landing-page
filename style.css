@@ -133,9 +133,11 @@
     margin-bottom: 40px;
 }
 
-.poke-card p{
+.poke-card a{
     font-size: 18px;
     font-family: Roboto;
     color: #1F2937;
     font-weight: 500;
+    text-decoration: none;
 }
+
