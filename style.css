@@ -72,19 +72,23 @@
 .hero-button{
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     padding: 5px 20px;
     font-size: 18px;
     font-family: Roboto;
     width: 150px;
     font-weight: 500;
-    cursor: pointer
+    cursor: pointer;
+    
 }
 
 .hero-button{
     text-decoration: none;
     color: #F9FAF8;
+    padding: 10px 30px;
+    width: fit-content;
+    border: #E5E7EB 1px solid;
     font-size: 18px;
     font-family: Roboto;
     font-weight: 500;
@@ -209,35 +213,28 @@
     font-weight: 300;
 }
 
-.call-botao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    text-align: center;
-    border: white 3px solid;
-    padding: 10px 50px;
-    border-radius: 15px;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
+.call-button {
+    border: white 2px solid;
+    color: #F9FAF8;
+    border-radius: 12px;
+    padding: 10px 30px;
+    font-size: 18px;
     font-family: Roboto;
-}
-
-.call-botao a{
+    width: 150px;
+    font-weight: 500;
+    cursor: pointer;
     text-decoration: none;
-    color: white;
-    
+    display: inline-block;
+    text-align: center;
 }
 
-.call-botao a:hover{
-    color: #3882F6;
-}
-.call-botao:hover{
-    transition: 0.5s;
+.call-button:hover{
     background-color: white;
     color: #3882F6;
+    transform: scale(1.02);
+   
 }
+
 
 .rodape{
     display: flex;
@@ -249,5 +246,7 @@
     font-family: Roboto;
     font-weight: 300;
     font-size: 18px;
+   
 }
+
 
