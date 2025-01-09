@@ -239,4 +239,15 @@
     color: #3882F6;
 }
 
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 90px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+}
 
