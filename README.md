@@ -1,6 +1,6 @@
 # 1º Projeto de Landing Page utilizando HTML e CSS
 
-Este projeto consiste em um layout utilizando HTML e CSS, com foco em boas práticas de organização e estilização para seções como cabeçalho, hero, e rodapé.
+Este projeto consiste em um layout responsivo utilizando apenas HTML e CSS, com foco em boas práticas de organização e estilização para seções como cabeçalho, hero, e rodapé.
 
 ---
 
